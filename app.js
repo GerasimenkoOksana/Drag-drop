@@ -23,7 +23,7 @@ function dragend(event){
 function dragover(event){
     event.preventDefault()
 }
-function dragenter(event){
+function dragenter(event){    
     event.target.classList.add('hovered')
    
 }
